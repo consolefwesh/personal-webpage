@@ -5,7 +5,7 @@
 }
 
 .main-container {
-    width: 85vw;
+    width: 80vw;
     background-color: #D7D7D7;
     margin: 1rem auto;
 }
@@ -13,7 +13,7 @@
 .section-one {
     display: flex;
     justify-content: center;
-    width: 85vw;
+    width: auto;
     height: 70vh;
     margin: 0 auto;
 }
@@ -243,4 +243,51 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+.grid-container-two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-one {
+    background-image: url(./Project.png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
+}
+
+.grid-item-two {
+    background-image: url(./Rectangle\ 17.png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
+}
+
+.grid-item-three {
+    background-image: url(./Project\ \(1\).png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
+}
+
+.grid-item-four {
+    background-image: url(./Rectangle\ 17.png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
+}
+
+.grid-item-five {
+    background-image: url(./Project\ \(1\).png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
+}
+
+.grid-item-six {
+    background-image: url(./Project.png);
+    height: 16rem;
+    width: auto;
+    background-size: cover;
 }
