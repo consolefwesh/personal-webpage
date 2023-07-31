@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.main-container {
+    width: 85vw;
+    background-color: #D7D7D7;
+    margin: 1rem auto;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.left-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    background-color: #D7D7D7;
+    width: 50%;
+    padding: 1rem 0 0 5rem;
+}
+
+.left-flex span {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-flex-article p {
+    color: #909090;
+}
+
+.right-flex {
+    width: 50%;
+    background-image: url(./IMG_1024.jpeg);
+    background-size: cover;
+    background-color: #0B0B0B;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    height: 2rem;
+    /* margin: 1rem auto; */
+    background-color: #0B0B0B;
+    padding: .4rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav button {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 35px;
+}
+
+.my-image {
+    width: 100%;
+    height: 30.6rem;
+    background-color: #0B0B0B;
+}
+
+.black-box {
+    background-color: #0B0B0B;
+    color: white;
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: .7rem 0 .7rem 5rem;
+}
+
+.black-box button {
+    width: 6rem;
+    height: 2rem;
+    background-color: #0B0B0B;
+    color: white;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #909090;
+    border-left: 2px solid #909090;
+}
+
+.section-two {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about-me {
+    width: 11rem;
+    height: 3.5rem;
+    margin: 5rem 0 3rem 0;
+    border: 4px solid black;
+    background-color: #D7D7D7;
+}
+
+.explore {
+    width: 6rem;
+    height: 2rem;
+    background-color: #D7D7D7;
+    border-top: none;
+    border-bottom: none;
+    border-right: 2px solid #0B0B0B;
+    border-left: 2px solid #0B0B0B;
+    margin: 2rem 0;
+}
+
+.seperator {
+    margin: 4rem auto;
+    width: 10.625rem;
+    height: 0.75rem;
+}
+
+.two-divisions {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    font-weight: 100;
+    margin: 3rem 0 4rem 0;
+}
+
+.left-division {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.right-division {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.skills {
+    width: 11rem;
+    height: 3.5rem;
+    margin: 0 0 3rem 0;
+    border: 4px solid black;
+    background-color: #D7D7D7;
+}
+
+.grid-section h4 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3rem;
+    margin: 1rem 0 2rem 24rem;
+}
+
+.grid-container {
+    margin: 0 auto;
+    width: 30rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.grid-item {
+    /* padding: 20px; */
+    /* font-size: 3px; */
+    text-align: center;
+}
+
+.grid-item img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: .3rem 0;
+}
+
+.grid-item p {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.20306rem;
+}
+
+.grid-section h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3rem;
+    margin: 4rem 0 1rem 24rem;
+}
+
+.background-image-section {
+    background-image: url(./image\ 12.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+    background-blend-mode: lighten;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+
+.background-image-section button {
+    padding: 1rem;
+    width: 14rem;
+    border: 5px solid #0B0B0B;
+    background-color: transparent;
+    letter-spacing: 0.8rem;
+}
+
+.paragraph-container {
+    background-color: #1A1A1A;
+    color: #FFFBFB;
+    font-size: 0.75rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
