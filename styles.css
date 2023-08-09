@@ -395,4 +395,36 @@ footer {
     font-size: 40px;
 }
 
-@media screen {}
+@media screen and (max-width: 768px) {
+    .section-one {
+        flex-direction: column;
+        background-image: url(./IMG_1024.jpeg);
+        background-size: cover;
+        background-color: #0b0b0b73;
+        background-blend-mode: darken;
+    }
+    .left-flex {
+        background-color: transparent;
+        color: #0B0B0B;
+    }
+    .logo {
+        background-color: #FFFBFB;
+    }
+    nav {
+        display: none;
+    }
+    .grid-section h4 {
+        text-align: center;
+        padding: 0;
+        margin: 1rem 0;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-section h3 {
+        text-align: center;
+        padding: 0;
+        margin: 1rem 0;
+    }
+}
